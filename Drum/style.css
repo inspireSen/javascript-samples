@@ -30,6 +30,7 @@ html {
     background: rgba(0, 0, 0, 0.4);
     text-shadow: 0 0 .5rem balck;
     color: #fff;
+    transition: all 0.07s ease;
 }
 
 .playing {
