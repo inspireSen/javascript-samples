@@ -9,5 +9,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
 function handleUpdate(e) {
     console.log(e)
     const suffix = this.dataset.sizing || '';
-    document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix)
+    document.querySelector('.wrapper').style.setProperty(`--${this.name}`, this.value + suffix)
+
 }
